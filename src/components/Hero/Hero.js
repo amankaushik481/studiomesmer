@@ -97,7 +97,7 @@ const Hero = () => {
               <div className="green"></div>&nbsp;Want to work with us?
             </p>
             <p className="email__example">
-              <a href="#">example@example.com</a>
+              <a href="gmail.com">example@example.com</a>
             </p>
           </div>
         </div>
