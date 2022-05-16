@@ -117,6 +117,10 @@ a{
 .contact__container{
     background:#1F1F1F;
     position: absolute;
+    width: 50%;
+    top: 0;
+    left:50%;
+    position: absolute;
 }
 .contact__input{
     background: none;
