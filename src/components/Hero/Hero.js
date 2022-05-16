@@ -1,33 +1,51 @@
 import React, { useState } from "react";
 import "./hero.css";
 
-const Contact = () => {
-  return (
-    <div className="contact__container">
-      <div className="contact__back">
-        ←<button>Back</button>
-      </div>
-      <p className="contact__sayhello">
-        <div className="orange"></div>&nbsp;Say Hello
-      </p>
-      <div>
-        <h3>NAME</h3>
-        <input type="text" placeholder="Your name" />
-      </div>
-      <div>
-        <h3>EMAIL</h3>
-        <input type="email" placeholder="Your name" />
-      </div>
-      <div>
-        <h3>MESSAGE</h3>
-        <input type="text" placeholder="Start typing here" />
-      </div>
-      <button>Submit →</button>
-    </div>
-  );
-};
-
 const Hero = () => {
+  const Contact = () => {
+    return (
+      <div className="contact__container">
+        <div className="contact__inside">
+          <div className="contact__back">
+            <div className="arrow">←</div>
+            <button className="back__btn" onClick={handleClick}>
+              Back
+            </button>
+          </div>
+          <p className="contact__sayhello">
+            <div className="orange"></div>&nbsp;Say Hello
+          </p>
+          <div className="inputs">
+            <h3 className="contact__label">NAME</h3>
+            <input
+              className="contact__input"
+              type="text"
+              placeholder="Your name"
+            />
+          </div>
+          <div className="inputs">
+            <h3 className="contact__label">EMAIL</h3>
+            <input
+              className="contact__input"
+              type="email"
+              placeholder="Your name"
+            />
+          </div>
+          <div className="inputs">
+            <h3 className="contact__label">MESSAGE</h3>
+            <input
+              className="contact__input"
+              type="text"
+              placeholder="Start typing here"
+            />
+          </div>
+          <div className="inputs">
+            <button className="submit__btn">Submit →</button>
+          </div>
+        </div>
+      </div>
+    );
+  };
   const [contact, setContact] = useState(false);
   function handleClick() {
     contact ? setContact(false) : setContact(true);

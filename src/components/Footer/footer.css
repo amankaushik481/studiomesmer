@@ -1,5 +1,14 @@
+.footer{
+    margin-bottom: 0;
+}
+
 hr{
 border: none;
 background: rgba(31, 31, 31, 1);
 height: 2px;
+}
+.logo__container > img{
+    margin-right: 2rem;
+    cursor: pointer;
+    margin-bottom: 0;
 }

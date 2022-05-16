@@ -2,7 +2,7 @@
 body {
   background: rgba(0, 0, 0, 1);
   color: #fff;
-  padding: 32px 50px;
+  padding: 32px 50px 0 50px;
   font-family: 'Space Mono', monospace;
 }
 *{
