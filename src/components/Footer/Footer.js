@@ -9,9 +9,9 @@ const Footer = () => {
     <div className="footer">
       <hr />
       <div className="logo__container">
-        <img src={Twitter} />
-        <img src={Linkedin} />
-        <img src={Instagram} />
+        <img alt="logo" src={Twitter} />
+        <img alt="logo" src={Linkedin} />
+        <img alt="logo" src={Instagram} />
       </div>
     </div>
   );
