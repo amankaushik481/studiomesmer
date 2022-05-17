@@ -89,6 +89,7 @@ h1{
     margin-top: 16px;
 }
 .yellow{
+    min-width: 8px;
     margin-top: 8px;
     background-color: #FBD448;
 }
@@ -200,20 +201,30 @@ a{
     .contact__container{
         background:#1F1F1F;
         position: absolute;
+        height: max-content;
     }
     .contact__inside{
         margin-left: 2rem;
-        height: 100vh;
+        height: max-content;
+        /* height: 100vh; */
     }
     .email__container{
         margin-top: 1.5rem;
     }
+
 }
     @media screen and (max-width:500px) {
         h1{
             font-size: 40px;
         }
         .timer__headings{
-            width: auto;
+            width: 350px;
+        }
+        .notify__button{
+            margin-top: 1rem;
+        }
+        .email__input{
+            width: 300px;
+            margin: 0;
         }
     }

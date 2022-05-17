@@ -7,13 +7,13 @@ border: none;
 background: rgba(31, 31, 31, 1);
 height: 2px;
 }
-.logo__container > img{
+.logos__container > img{
     margin-right: 2rem;
     cursor: pointer;
     margin-bottom: 0;
 }
 @media screen and (max-width: 850px) {
-    .logo__container{
+    .logos__container{
         display: flex;
         justify-content: center;
     }    

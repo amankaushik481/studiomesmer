@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <hr />
-      <div className="logo__container">
+      <div className="logos__container">
         <img alt="logo" src={Twitter} />
         <img alt="logo" src={Linkedin} />
         <img alt="logo" src={Instagram} />
