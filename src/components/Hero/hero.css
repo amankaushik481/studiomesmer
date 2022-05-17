@@ -201,12 +201,13 @@ a{
     .contact__container{
         background:#1F1F1F;
         position: absolute;
-        height: max-content;
+        width: 100%;
+        top: 0;
+        padding-bottom: 2rem;
     }
     .contact__inside{
         margin-left: 2rem;
-        height: max-content;
-        /* height: 100vh; */
+        height: 100%;
     }
     .email__container{
         margin-top: 1.5rem;
