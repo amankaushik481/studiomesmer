@@ -12,3 +12,9 @@ height: 2px;
     cursor: pointer;
     margin-bottom: 0;
 }
+@media screen and (max-width: 850px) {
+    .logo__container{
+        display: flex;
+        justify-content: center;
+    }    
+}

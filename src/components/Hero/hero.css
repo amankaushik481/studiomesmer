@@ -117,10 +117,10 @@ a{
 .contact__container{
     background:#1F1F1F;
     position: absolute;
-    width: 50%;
-    top: 0;
-    left:50%;
-    position: absolute;
+}
+.contact__inside{
+    margin-left: 7rem;
+    height: 100vh;
 }
 .contact__input{
     background: none;
@@ -163,7 +163,7 @@ a{
     border: none;
     cursor: pointer;
     color: #bdbdbd;
-
+    
 }
 .arrow{
     font-size: 25px;
@@ -173,10 +173,6 @@ a{
     font-size: 24px;
     display: flex;
     margin-bottom: 4rem;
-}
-.contact__inside{
-    margin-left: 7rem;
-    height: 100vh;
 }
 .submit__btn{
     background: none;
@@ -189,4 +185,23 @@ a{
 .inputs
 {
     margin-left: 2rem;
+}
+@media screen and (max-width:850px) {
+    .hero__main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    .hero__right{
+        margin-top: 3rem;
+    }
+    .contact__container{
+        background:#1F1F1F;
+        position: absolute;
+    }
+    .contact__inside{
+        margin-left: 2rem;
+        height: 100vh;
+    }
 }

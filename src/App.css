@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Space+Mono:wght@400;700&display=swap');
 body {
+  background: rgba(0, 0, 0, 1);
+  color: #fff;
+  /* padding: 32px 50px 0 50px; */
+  font-family: 'Space Mono', monospace;
 }
 *{
   color: #fff;
   font-family: 'Space Mono', monospace;
-  background: rgba(0, 0, 0, 1);
 }
 .App{
-  color: #fff;
+  /* color: #fff; */
   width: 90%;
   display: flex;
   flex-direction: column;
