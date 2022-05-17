@@ -191,10 +191,11 @@ a{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
     .hero__right{
-        margin-top: 3rem;
+        margin-top: 1.5rem;
+        max-width: 500px;
     }
     .contact__container{
         background:#1F1F1F;
@@ -204,4 +205,15 @@ a{
         margin-left: 2rem;
         height: 100vh;
     }
+    .email__container{
+        margin-top: 1.5rem;
+    }
 }
+    @media screen and (max-width:500px) {
+        h1{
+            font-size: 40px;
+        }
+        .timer__headings{
+            width: auto;
+        }
+    }
