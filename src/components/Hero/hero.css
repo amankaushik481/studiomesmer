@@ -118,7 +118,19 @@ a{
 .contact__container{
     background:#1F1F1F;
     position: absolute;
-}
+    left: 50%;
+    top: 0;
+    width: 50%;
+    animation: 3s slide-left;
+    }
+    @keyframes slide-left {
+        from {
+          margin-left: 100%;
+        }
+        to {
+          margin-left: 0%;
+        }
+      }
 .contact__inside{
     margin-left: 7rem;
     height: 100vh;
@@ -203,6 +215,7 @@ a{
         position: absolute;
         width: 100%;
         top: 0;
+        left: 0;
         padding-bottom: 2rem;
         animation: 3s slide-left;
     }
