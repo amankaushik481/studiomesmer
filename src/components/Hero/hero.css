@@ -121,16 +121,18 @@ a{
     left: 50%;
     top: 0;
     width: 50%;
-    animation: 3s slide-left;
-    }
-    @keyframes slide-left {
-        from {
-          margin-left: 100%;
-        }
-        to {
-          margin-left: 0%;
-        }
-      }
+    visibility: visible;
+    transition:all 2s linear;
+}
+.contact__containerr{
+    background:#1F1F1F;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 50%;
+    visibility: hidden;
+    transition:all 2s linear;
+}
 .contact__inside{
     margin-left: 7rem;
     height: 100vh;
@@ -161,8 +163,8 @@ a{
 }
 .contact__btn:hover{
     color: black;
-    background: #BDBDBD;
-    border: 1px solid #BDBDBD;
+    background: white;
+    border: 1px solid white;
 }
 .contact__back{
     display: flex;
@@ -195,6 +197,11 @@ a{
     cursor: pointer;
     margin-top: 2rem;
 }
+.submit__btn:hover{
+    background: white;
+    color: #1F1F1F;
+    transition: all 0.3s ease-in;
+}
 .inputs
 {
     margin-left: 2rem;
@@ -217,16 +224,7 @@ a{
         top: 0;
         left: 0;
         padding-bottom: 2rem;
-        animation: 3s slide-left;
     }
-    @keyframes slide-left {
-        from {
-          margin-left: 100%;
-        }
-        to {
-          margin-left: 0%;
-        }
-      }
     .contact__inside{
         margin-left: 2rem;
         height: 100%;

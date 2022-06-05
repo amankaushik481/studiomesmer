@@ -4,7 +4,7 @@ import "./hero.css";
 const Hero = () => {
   const Contact = () => {
     return (
-      <div className="contact__container">
+      <div className={contact ? "contact__container" : "contact__containerr"}>
         <div className="contact__inside">
           <div className="contact__back">
             <div className="arrow">←</div>
@@ -101,7 +101,8 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        {contact ? <Contact /> : ""}
+        {/* {contact ? <Contact /> : ""} */}
+        <Contact />
       </div>
     </div>
   );
